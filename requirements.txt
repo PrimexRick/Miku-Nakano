@@ -90,3 +90,4 @@ opencv-python-headless
 countryinfo==0.1.2
 python-rapidjson==1.5
 pytimeparse
+youtube_dl
