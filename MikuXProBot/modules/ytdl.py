@@ -13,7 +13,7 @@ from telethon.tl.types import DocumentAttributeAudio
 from collections import deque
 from googleapiclient.discovery import build
 from auditor.events import register
-from auditor import YOUTUBE_API_KEY
+from auditor.lmao import YOUTUBE_API_KEY
 from html import unescape
 import requests
 from auditor import LOGGER, client
