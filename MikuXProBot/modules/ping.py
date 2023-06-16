@@ -147,7 +147,7 @@ dispatcher.add_handler(PINGALL_HANDLER)
 
 
 __help__ = """
-/ping: Miku pong
+/ping: Shiina pong
 """
 
 __mod_name__ = "ping⚡"
