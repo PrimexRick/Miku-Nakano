@@ -16,7 +16,7 @@ from auditor.events import register
 from auditor.lmao import YOUTUBE_API_KEY
 from html import unescape
 import requests
-from auditor import LOGGER, client
+from MikuXProBot import LOGGER, client
 from telethon import types
 from telethon.tl import functions
 
