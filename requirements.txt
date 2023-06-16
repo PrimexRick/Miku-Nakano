@@ -93,3 +93,4 @@ pytimeparse
 markdown2
 unidecode
 youtube_dl
+google-api-python-client
