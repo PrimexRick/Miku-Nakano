@@ -59,7 +59,7 @@ async def pokedex_command(client: Client, message: Message) -> None:
 
                 # Create the caption for the message
                 caption = f"""
-====[ Ｐｏｋéｄｅｘ ]====
+➖➖➖[ Ｐｏｋéｄｅｘ ]➖➖➖
 
 ╒═══「 **{pokemon.upper()}** 」
 
