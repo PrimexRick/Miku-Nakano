@@ -21,7 +21,7 @@ async def requests(client: app, message: Message):
   ]
     )
 
-    USER_TEXT = f'''**<a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> your request has been successfully sent to our developers, soon they will reply you
+    USER_TEXT = f'''**<a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a> your request has been successfully sent to my admins, soon they will try to fulfil tour request
 ThankYou :)**'''
     DEV_TEXT = f'''**!New Request Master
 
