@@ -56,7 +56,7 @@ async def bug(_, msg: Message):
 × ɢʀᴏᴜᴘ : {chat_username}
 ━━━━━━━━━━━━━━━━━━━**
 
-**request-message : ** **{bugs}**"""
+**request-anime-name : ** **{bugs}**"""
 
     
     if msg.chat.type == "private":
@@ -95,11 +95,11 @@ async def bug(_, msg: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                "View Message", url=f"{msg.link}")
+                                "Connect To The User", url=f"{msg.link}")
                         ],
                         [
                             InlineKeyboardButton(
-                                "Close Message", callback_data="close_send_photo")
+                                "Close Request", callback_data="close_send_photo")
                         ]
                     ]
                 )
