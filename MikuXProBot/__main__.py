@@ -63,7 +63,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ────「 <b>{}</b> 」────
 <b>Hi!</b> <a href="tg://user?id={}"><b>{}</b></a> <b>,
-I'm An Anime Themed Advance Group Management Bot.I have lots of handy features.
+I'm An Anime Themed Advance Group Management Bot.</b>
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ‣ <b>Uptime:</b> <code>{}</code>
 ‣ <b>Python:</b> <code>{}</code>
