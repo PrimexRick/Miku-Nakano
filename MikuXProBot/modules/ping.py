@@ -102,7 +102,7 @@ def ping(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="System Stats 💻", callback_data="stats_callback")
+                  InlineKeyboardButton(text="System Stats 💻", callback_data="statistics_callback")
                   ]
                 ]
             ),
@@ -110,8 +110,8 @@ def ping(update: Update, context: CallbackContext):
 
     message.delete()
 
-@pgram.on_callback_query(filters.regex("stats_callback"))
-async def stats_callbacc(_, CallbackQuery):
+@pgram.on_callback_query(filters.regex("statistics_callback"))
+async def statistics_callbacc(_, CallbackQuery):
     text = await bot_sys_stats()
     await pgram.answer_callback_query(CallbackQuery.id, text, show_alert=True)
 
@@ -132,7 +132,7 @@ def pingall(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="System Stats 💻", callback_data="stats_callback")
+                  InlineKeyboardButton(text="System Stats 💻", callback_data="statistics_callback")
                   ]
                 ]
             ),
