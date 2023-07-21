@@ -16,6 +16,8 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 from MikuXProBot.script import PM_START_TEXT
 
 StartTime = time.time()
+quotely = Quotely()
+
 
 # enable logging
 logging.basicConfig(
