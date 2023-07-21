@@ -199,7 +199,7 @@ async def process(msg, user, client, reply, replied=None):
         space = pfpbg.width + 30
         namefallback = ImageFont.truetype("resources/Quivira.otf", 43, encoding="utf-16")
         for letter in tot:
-            if letter in emoji.UNICODE_EMOJI:
+            if letter in emoji.core.UNICODE_EMOJI:
                 newemoji, mask = await emoji_fetch(letter)
                 canvas.paste(newemoji, (space, 24), mask)
                 space += 40
