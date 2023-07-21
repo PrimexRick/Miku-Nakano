@@ -528,8 +528,8 @@ def miku_callback_data(update, context):
                 timeout=30,
         )
 
-@pgram.on_callback_query(filters.regex("stats_callback"))
-async def stats_callbacc(_, CallbackQuery):
+@pgram.on_callback_query(filters.regex("statistics_callback"))
+async def statistics_callbacc(_, CallbackQuery):
     text = await bss()
     await pgram.answer_callback_query(CallbackQuery.id, text, show_alert=True)
 
