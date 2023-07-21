@@ -14,9 +14,10 @@ from telethon import TelegramClient
 from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 from MikuXProBot.script import PM_START_TEXT
+from MikuXProBot.services.quoteapi import Quotly
 
 StartTime = time.time()
-quotely = Quotely()
+quotly = Quotly()
 
 
 # enable logging
